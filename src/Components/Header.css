@@ -1,0 +1,32 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #004643;
+  padding: 10px 6px;
+  /* color: #e8e4e6; */
+  border-bottom: 3px solid #001e1d;
+}
+
+.nav a{
+  margin: 0px 5px;
+  text-decoration: none;
+  color: #f9bc60;
+  font-weight: 400;
+  transition: .3s;
+}
+
+.nav a.active{
+  color: #abd1c6;
+  border-bottom: 2px solid #f9bc60;
+  margin: 0px 5px;
+  text-decoration: none;
+  font-weight: 400;
+  transition: .3s;
+}
+
+.header p{
+  margin: 0px 5px;
+  color: #e8e4e6;
+  font-weight: 500;
+}
